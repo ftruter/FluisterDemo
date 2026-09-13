@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!--
+    Demo icon — 1024×1024 marketing composite of all three layers.
+    Not an Icon Composer layer. Drop the numbered SVGs into Icon Composer
+    and set the background color there instead.
+  -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2B1C8F"/>
+      <stop offset="52%" stop-color="#5B3DF5"/>
+      <stop offset="100%" stop-color="#8B7CFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="36%" cy="28%" r="62%">
+      <stop offset="0%" stop-color="#E9D5FF" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="#5B3DF5" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="disc" x1="30%" y1="0%" x2="70%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E4E7FF"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F2F0FF"/>
+    </linearGradient>
+    <linearGradient id="play" x1="20%" y1="0%" x2="90%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#EDE9FE"/>
+    </linearGradient>
+    <clipPath id="plate">
+      <rect x="0" y="0" width="1024" height="1024" rx="228" ry="228"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#plate)">
+    <rect width="1024" height="1024" fill="url(#bg)"/>
+    <rect width="1024" height="1024" fill="url(#glow)"/>
+    <circle cx="512" cy="512" r="328" fill="url(#disc)"/>
+    <path fill="url(#ring)" fill-rule="evenodd"
+          d="M 512,100
+             A 412,412 0 1 1 512,924
+             A 412,412 0 1 1 512,100
+             Z
+             M 512,156
+             A 356,356 0 1 0 512,868
+             A 356,356 0 1 0 512,156
+             Z"/>
+    <path fill="url(#play)" d="M 410.400,386.000 A 30.000,30.000 0 0 1 436.625,370.569 L 664.975,497.431 A 30.000,30.000 0 0 1 664.975,526.569 L 436.625,653.431 A 30.000,30.000 0 0 1 410.400,638.000 Z"/>
+    <ellipse cx="430" cy="388" rx="200" ry="118" fill="#FFFFFF" fill-opacity="0.14"/>
+  </g>
+</svg>

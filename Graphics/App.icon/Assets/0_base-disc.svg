@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!--
+    Demo icon — layer 0 (back). Base disc.
+    Canvas: 1024×1024 (iOS / iPadOS / macOS Icon Composer master).
+    No icon mask, no shadow, no blur, no background fill.
+    Transparent canvas. Artwork is centered for squircle + circle masks.
+  -->
+  <circle cx="512" cy="512" r="328" fill="#EEF0FF"/>
+</svg>

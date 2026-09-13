@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!--
+    Demo icon — layer 2 (front). Rounded play glyph.
+    Canvas: 1024×1024 (iOS / iPadOS / macOS Icon Composer master).
+    No icon mask, no shadow, no blur, no background fill.
+    Transparent canvas. Artwork is centered for squircle + circle masks.
+  -->
+  <path fill="#FFFFFF" d="M 410.400,386.000 A 30.000,30.000 0 0 1 436.625,370.569 L 664.975,497.431 A 30.000,30.000 0 0 1 664.975,526.569 L 436.625,653.431 A 30.000,30.000 0 0 1 410.400,638.000 Z"/>
+</svg>

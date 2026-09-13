@@ -1,0 +1,17 @@
+.DS_Store
+/.build
+/DerivedData
+/.derivedData
+/Build
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.xcodeproj.bak.*
+.swiftpm/xcode/package.xcworkspace/xcuserdata/
+Models/fluister-turbo-v2
+Models/*.mlmodelc

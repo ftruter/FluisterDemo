@@ -1,0 +1,99 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%lld percent" : {
+
+    },
+    "Afrikaans" : {
+
+    },
+    "Afrikaans · SA English" : {
+
+    },
+    "Choose" : {
+      "comment" : "Open panel confirm button."
+    },
+    "Choose model…" : {
+
+    },
+    "Choose the Fluister Core ML folder to begin." : {
+      "comment" : "Status when no model is selected."
+    },
+    "Choose the Fluister-turbo Core ML folder (MelSpectrogram, AudioEncoder, TextDecoder)." : {
+      "comment" : "Open panel prompt for the WhisperKit model folder."
+    },
+    "Chooses Afrikaans or English for on-device speech recognition. Autodetect is off so Afrikaans is not treated as Dutch." : {
+
+    },
+    "Clear" : {
+
+    },
+    "Copy" : {
+
+    },
+    "Copy Transcript" : {
+
+    },
+    "English" : {
+
+    },
+    "Fluister" : {
+
+    },
+    "Language" : {
+
+    },
+    "Listen" : {
+
+    },
+    "Listening…" : {
+      "comment" : "Status while the microphone is live."
+    },
+    "Microphone access was not granted." : {
+      "comment" : "Error when the user denies the microphone prompt."
+    },
+    "Microphone level" : {
+
+    },
+    "Model by DigiPhyte. Inference with WhisperKit on Core ML. No cloud." : {
+
+    },
+    "Can't listen" : {
+      "comment" : "Full-pane title when model load or microphone permission failed."
+    },
+    "No Fluister model" : {
+
+    },
+    "Once, on this Mac. Listen turns on when it is done." : {
+      "comment" : "Explains that Core ML compile is a one-time wait before listening."
+    },
+    "Preparing model on this Mac…" : {
+      "comment" : "Status while Core ML compiles or loads."
+    },
+    "Preparing the model for this Mac" : {
+      "comment" : "Full-pane title while Core ML compiles Fluister."
+    },
+    "Try again" : {
+
+    },
+    "Ready. Audio stays on this Mac." : {
+      "comment" : "Idle status."
+    },
+    "Stop listening" : {
+
+    },
+    "That folder is not a WhisperKit Fluister model. It needs MelSpectrogram.mlmodelc, AudioEncoder.mlmodelc, TextDecoder.mlmodelc, tokenizer.json, and config.json." : {
+      "comment" : "Error when the chosen folder is missing required Core ML files."
+    },
+    "The Fluister model is missing a tokenizer." : {
+      "comment" : "Error when tokenizer.json cannot be loaded."
+    },
+    "This app loads a local WhisperKit Core ML folder. Convert Fluister-turbo with whisperkittools, then choose the folder that contains MelSpectrogram, AudioEncoder, and TextDecoder." : {
+
+    },
+    "Transcript" : {
+
+    }
+  },
+  "version" : "1.0"
+}

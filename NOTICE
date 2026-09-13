@@ -1,0 +1,29 @@
+Fluister Demo
+=============
+
+On-device live transcription for Afrikaans and South African English.
+This app is a proof of concept for the Core ML / Metal conversion of Fluister-turbo.
+
+1. Fluister-turbo model — DigiPhyte (Pty) Ltd
+---------------------------------------------
+   https://huggingface.co/digiphyte/fluister-turbo-transformers
+   MIT License. See LICENSE in the model folder and this repository.
+   Fluister is a South African Whisper: Afrikaans, SA English, and everyday
+   Afrikaans/English code-switching. Credit DigiPhyte if you ship this model.
+
+2. Base model — OpenAI Whisper large-v3-turbo
+---------------------------------------------
+   https://huggingface.co/openai/whisper-large-v3-turbo
+   Apache License 2.0. A copy is LICENSE-whisper-apache-2.0.txt.
+
+3. Training data (upstream of the model)
+----------------------------------------
+   andreoosthuizen/afrikaans-30s, CC BY 4.0
+   NCHLT Speech Corpus Afrikaans and English (SADiLaR / NCHLT), CC BY 3.0
+
+4. Inference — WhisperKit by Argmax, Inc.
+-----------------------------------------
+   https://github.com/argmaxinc/WhisperKit
+   MIT License. Core ML conversion via whisperkittools.
+
+This app does not send audio or transcripts off the device.

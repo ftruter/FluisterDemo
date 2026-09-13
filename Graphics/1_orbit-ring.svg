@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!--
+    Demo icon — layer 1 (middle). Orbit ring.
+    Canvas: 1024×1024 (iOS / iPadOS / macOS Icon Composer master).
+    No icon mask, no shadow, no blur, no background fill.
+    Transparent canvas. Artwork is centered for squircle + circle masks.
+  -->
+  <path fill="#FFFFFF" fill-rule="evenodd"
+        d="M 512,100
+           A 412,412 0 1 1 512,924
+           A 412,412 0 1 1 512,100
+           Z
+           M 512,156
+           A 356,356 0 1 0 512,868
+           A 356,356 0 1 0 512,156
+           Z"/>
+</svg>
