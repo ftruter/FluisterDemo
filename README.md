@@ -101,6 +101,10 @@ To rebuild the 500-clip manifest (round-robin across sermons/speakers, seed `202
 python3 Scripts/select-afrikaans-clips.py
 ```
 
+## Contributing 
+
+Any contributions welcome. Just raise a PR and ask FTruter to review. A good place to start would be with the [AI Criitique](./CRITIQUE.md) 
+
 ## Credits
 
 - **DigiPhyte** — Fluister-turbo (MIT)
