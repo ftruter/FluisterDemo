@@ -16,3 +16,7 @@ struct AttributionFooter: View {
         .accessibilityElement(children: .combine)
     }
 }
+
+#Preview {
+    AttributionFooter()
+}

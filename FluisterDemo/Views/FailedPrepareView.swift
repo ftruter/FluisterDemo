@@ -11,7 +11,11 @@ struct FailedPrepareView: View {
         } actions: {
             Button("Try again", action: transcriber.retryPrepare)
                 .buttonStyle(.borderedProminent)
-            Button("Choose model…", action: transcriber.chooseModel)
+            if transcriber.models.hasLocal {
+                Button(action: transcriber.downloadModel) {
+                    Text("Download the speech recognition model again", comment: "Offers a fresh Hub download after Core ML failed to prepare.")
+                }
+            }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
@@ -22,4 +26,9 @@ struct FailedPrepareView: View {
         }
         return ""
     }
+}
+
+#Preview {
+    FailedPrepareView()
+        .environment(Transcriber())
 }

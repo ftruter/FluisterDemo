@@ -1,7 +1,3 @@
-Put a WhisperKit `fluister-turbo-v2` folder here only if you also add it as a resource. Preferred: **Choose model…** in the app, or:
+The app downloads the WhisperKit folder from [`FTruter/fluister-turbo-coreml`](https://huggingface.co/FTruter/fluister-turbo-coreml) into Application Support. Do not drop weights in this directory.
 
-```sh
-../FluisterDemo/Scripts/link-model.sh
-```
-
-Weights are gitignored.
+Tests: `FLUISTER_MODEL_FOLDER=/path/to/fluister-turbo-v2` or `Scripts/link-model.sh`.

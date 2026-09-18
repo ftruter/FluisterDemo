@@ -10,6 +10,6 @@ fi
 if [[ ! -f "${ICON_DST}" ]]; then
   echo "warning: no AppIcon.png yet; Xcode will use a placeholder" >&2
 fi
-chmod +x "${ROOT}/Scripts/link-model.sh" "${ROOT}/Scripts/generate_xcodeproj.rb"
+chmod +x "${ROOT}/Scripts/link-model.sh" "${ROOT}/Scripts/generate_xcodeproj.rb" "${ROOT}/Scripts/select-afrikaans-clips.py"
 ruby "${ROOT}/Scripts/generate_xcodeproj.rb" --force
 echo "Open ${ROOT}/FluisterDemo.xcodeproj"

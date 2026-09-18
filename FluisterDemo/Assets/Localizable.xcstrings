@@ -1,0 +1,716 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Afrikaans" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Afrikaans"
+          }
+        }
+      }
+    },
+    "Afrikaans · SA English" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Afrikaans · SA-Engels"
+          }
+        }
+      }
+    },
+    "andreoosthuizen/afrikaans-30s (CC BY 4.0) and the NCHLT Afrikaans and English speech corpora (CC BY 3.0)." : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "andreoosthuizen/afrikaans-30s (CC BY 4.0) en die NCHLT-Afrikaanse en -Engelse spraakkorpora (CC BY 3.0)."
+          }
+        }
+      }
+    },
+    "Argmax — WhisperKit" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Argmax — WhisperKit"
+          }
+        }
+      }
+    },
+    "Asking a new speaker for their name…" : {
+      "comment" : "Status while Fluister speaks the enrolment question.",
+      "extractionState" : "stale",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vra ŉ nuwe spreker vir hulle naam…"
+          }
+        }
+      }
+    },
+    "Base speech-recognition model. Apache 2.0." : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Basismodel vir spraakherkenning. Apache 2.0."
+          }
+        }
+      }
+    },
+    "Can't listen" : {
+      "comment" : "Full-pane title when model load or microphone permission failed.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kan niks hoor nie"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Can’t hear a thing"
+          }
+        }
+      }
+    },
+    "Can't reach Hugging Face. Connect to the internet and try again." : {
+      "comment" : "Error when the model catalog cannot be loaded.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kan nie Hugging Face bereik nie. Koppel aan die internet en probeer weer."
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kanselleer"
+          }
+        }
+      }
+    },
+    "Chooses Afrikaans or English for captions and on-device speech recognition. Autodetect is off so Afrikaans is not treated as Dutch." : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies Afrikaans of Engels vir spraakherkenning op hierdie toestel. Outomatiese taalherkenning is afgeskakel sodat Afrikaans nie as Nederlands hanteer word nie."
+          }
+        }
+      }
+    },
+    "Clear" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Vee uit"
+          }
+        }
+      }
+    },
+    "Copy" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Kopieer"
+          }
+        }
+      }
+    },
+    "Credits" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erkenning"
+          }
+        }
+      }
+    },
+    "Credits to" : {
+      "comment" : "Menu item that opens the open-source credits page.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erkenning aan"
+          }
+        }
+      }
+    },
+    "DigiPhyte — Fluister-turbo" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "DigiPhyte — Fluister-turbo"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klaar"
+          }
+        }
+      }
+    },
+    "Download the speech recognition model" : {
+      "comment" : "Primary button when no local model exists and the Hub size is not known yet.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laai die spraakherkenningsmodel af"
+          }
+        }
+      }
+    },
+    "Download the speech recognition model (%@)" : {
+      "comment" : "Primary button when no local model exists. The variable is the Hub package size.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laai die spraakherkenningsmodel af (%@)"
+          }
+        }
+      }
+    },
+    "Download the speech recognition model again" : {
+      "comment" : "Offers a fresh Hub download after Core ML failed to prepare.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laai die spraakherkenningsmodel weer af"
+          }
+        }
+      }
+    },
+    "Download the speech recognition model to begin." : {
+      "comment" : "Status when no local Core ML package is on the device.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laai die spraakherkenningsmodel af om te begin."
+          }
+        }
+      }
+    },
+    "Downloading %@ of %@" : {
+      "comment" : "Download progress. The first variable is bytes received, the second is the total.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Het %1$@ van %2$@ afgelaai"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Downloading %1$@ of %2$@"
+          }
+        }
+      }
+    },
+    "Downloading the speech recognition model…" : {
+      "comment" : "Indeterminate download progress.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laai die spraakherkenningsmodel af…"
+          }
+        }
+      }
+    },
+    "English" : {
+      "comment" : "DO NOT USE “Engels” AS THIS SHOULD READ WELL FOR ENGLISH SPEAKERS",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "English"
+          }
+        }
+      }
+    },
+    "Fluister needs the on-device speech model before it can listen. Audio stays on this device." : {
+      "comment" : "Explains why the download is required when no local model exists.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fluister het die spraakmodel op die toestel nodig voordat dit kan luister. Oudio bly op hierdie toestel."
+          }
+        }
+      }
+    },
+    "Latest on Hugging Face: %@" : {
+      "comment" : "Caption under the download button. The variable is the Hub last-modified date.\nCaption under the update button. The variable is the Hub last-modified date.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nuutste op Hugging Face: %@"
+          }
+        }
+      }
+    },
+    "Listening…" : {
+      "comment" : "Status while the microphone is live.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ek luister…"
+          }
+        }
+      }
+    },
+    "Looking up the latest model on Hugging Face…" : {
+      "comment" : "Status while the app asks Hugging Face for the Core ML package date and size.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soek vir die jongste model op Hugging Face…"
+          }
+        }
+      }
+    },
+    "Microphone access was not granted." : {
+      "comment" : "Error when the user denies the microphone prompt.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ek word belet om jou mikrofoon te gebruik."
+          }
+        }
+      }
+    },
+    "Model by DigiPhyte. Inference with WhisperKit on Core ML. No cloud." : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Model deur DigiPhyte. Inferensie met WhisperKit op Apple Core ML. U spraak word nêrens anders heen gestuur nie."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Model by DigiPhyte. Inference with WhisperKit on Core ML. No uploads to the cloud."
+          }
+        }
+      }
+    },
+    "Model download failed (%lld)." : {
+      "comment" : "HTTP error while downloading the Core ML model. The variable is the status code.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Model-aflaai het misluk (%lld)."
+          }
+        }
+      }
+    },
+    "More" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meer"
+          }
+        }
+      }
+    },
+    "Name this speaker" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gee dié spreker ŉ naam"
+          }
+        }
+      }
+    },
+    "No Fluister model" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen Fluister-model is beskikbaar"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No speech recognition model is available."
+          }
+        }
+      }
+    },
+    "On-device Core ML inference and the converter used for this Metal build. MIT." : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Afleiding op die toestel met Core ML, en die omsetter vir hierdie Metal-weergawe. MIT."
+          }
+        }
+      }
+    },
+    "Once, on this device. Start listening turns on when it is done." : {
+      "comment" : "Explains that Core ML compile is a one-time wait before listening.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ons sal die ingestelde model weergawe stoor sodat ons volgende keer dadelik kan begin luister."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "We will cache the optimised model data so we can start listening right away next time you start the app."
+          }
+        }
+      }
+    },
+    "Open in Safari" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maak oop in Safari"
+          }
+        }
+      }
+    },
+    "OpenAI — Whisper large-v3-turbo" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OpenAI — Whisper large-v3-turbo"
+          }
+        }
+      }
+    },
+    "Preparing the model for this device" : {
+      "comment" : "Full-pane title while Core ML compiles Fluister.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ons pas tans die spraakherkenningsmodel aan vir hierdie spesifieke toestel."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Optimising the speech recognition model for this device."
+          }
+        }
+      }
+    },
+    "Ready. Audio stays on this device." : {
+      "comment" : "Idle status.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gereed, jou spraak sal net op hierdie toestel bly."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ready, your speech will stay on this device."
+          }
+        }
+      }
+    },
+    "Save" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stoor"
+          }
+        }
+      }
+    },
+    "South African Whisper for Afrikaans, SA English, and everyday code-switching. MIT." : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suid-Afrikaanse Whisper vir Afrikaans, SA-Engels, en alledaagse kodewisseling. MIT."
+          }
+        }
+      }
+    },
+    "Start listening" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Begin luister"
+          }
+        }
+      }
+    },
+    "Starts on-device transcription. Apple requires a tap before the microphone turns on." : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Begin transkripsie op hierdie toestel. ŉ Knoppie-druk is nodig om die mikrofoon aan te skakel."
+          }
+        }
+      }
+    },
+    "Stop listening" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Hou op luister"
+          }
+        }
+      }
+    },
+    "The downloaded Fluister model did not match its checksums. The copy already on this device was left as-is." : {
+      "comment" : "Error when SHA-256 verification failed; old files are kept.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Fluister model wat ons sopas afgelaai het is beskadig in transito. Probeer asb. weer later op ŉ stabiele WiFi. Ons sal intussen maar die vorige werkende weergawe gebruik. "
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Fluister model we just downloaded was damaged in transit. We will use the last good copy already on this device for the time being. You can retry the update later on a stable WiFi."
+          }
+        }
+      }
+    },
+    "The downloaded Fluister model is missing files." : {
+      "comment" : "Error when the Core ML folder failed the completeness check.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die afgelaaide Fluister-model is onvolledig; vermis sommige lêers."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Fluister model we downloaded is incomplete."
+          }
+        }
+      }
+    },
+    "The Fluister model is missing a tokenizer." : {
+      "comment" : "Error when tokenizer.json cannot be loaded.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Fluister-model kort ŉ ‘tokenizer’."
+          }
+        }
+      }
+    },
+    "The Hugging Face model listing could not be read." : {
+      "comment" : "Error when the Hub JSON is unexpected.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Hugging Face-modellys kon nie gelees word nie."
+          }
+        }
+      }
+    },
+    "This demo is built with these open-source models and tools. Each link opens in Safari." : {
+      "comment" : "Intro on the Credits page. Links leave the app and open in Safari.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hierdie demo is gebou met hierdie oopbron-modelle en -gereedskap. Elke skakel maak oop in Safari."
+          }
+        }
+      }
+    },
+    "This is me…" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dis ek…"
+          }
+        }
+      }
+    },
+    "Training data" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opleidingsdata"
+          }
+        }
+      }
+    },
+    "Transcript" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Transkripsie"
+          }
+        }
+      }
+    },
+    "Try again" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "machine_translated",
+            "value" : "Probeer weer"
+          }
+        }
+      }
+    },
+    "UI language" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Koppelvlaktaal"
+          }
+        }
+      }
+    },
+    "Update is ready. It applies when you stop listening." : {
+      "comment" : "Banner after a new Core ML package has been verified while a listen session is still using the old files.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die nuwe weergawe is afgelaai. Ek sal dit begin gebruik sodra jy my laat ophou luister."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The downloaded update is ready. When you stop listening, we will switch over to the new model."
+          }
+        }
+      }
+    },
+    "Update the speech recognition model" : {
+      "comment" : "Button when a newer Core ML package is on Hugging Face and the size is not known yet.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hernu die spraakherkenningsmodel"
+          }
+        }
+      }
+    },
+    "Update the speech recognition model (%@)" : {
+      "comment" : "Button when a newer Core ML package is on Hugging Face. The variable is the download size. Listening still works with the copy already on this device.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Laai die nuwe spraakherkenningsmodel af (%@)"
+          }
+        }
+      }
+    },
+    "Waiting for speech…" : {
+      "comment" : "Status while the microphone is live but no voice has been heard yet.",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wag vir spraak…"
+          }
+        }
+      }
+    },
+    "Waiting for their name…" : {
+      "comment" : "Status after Fluister asked a new speaker to say their name.",
+      "extractionState" : "stale",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wag vir hulle naam…"
+          }
+        }
+      }
+    },
+    "We have a new participant in the conversation. What is your name?" : {
+      "comment" : "Enrolment question shown on screen (and spoken when a matching voice exists) so a deaf reader sees what Fluister said.",
+      "extractionState" : "stale",
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Ek hoor ŉ nuwe stem. Wat is u naam?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I hear a new voice. What is your name?"
+          }
+        }
+      }
+    },
+    "Your name" : {
+      "localizations" : {
+        "af" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jou naam"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.3"
+}

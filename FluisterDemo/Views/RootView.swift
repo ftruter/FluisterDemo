@@ -5,15 +5,12 @@ struct RootView: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            ListenControls()
+            ModelUpdateBar()
             Divider()
             MainPane()
-            Divider()
-            StatusFooter()
-            AttributionFooter()
+            ListenBar()
         }
-        .background(Color(nsColor: .textBackgroundColor))
-        .frame(minWidth: 640, minHeight: 420)
+        .background(Color(.systemBackground))
         .task { transcriber.prepareIfNeeded() }
     }
 }
@@ -33,4 +30,9 @@ struct MainPane: View {
             TranscriptPane()
         }
     }
+}
+
+#Preview {
+    RootView()
+        .environment(Transcriber())
 }

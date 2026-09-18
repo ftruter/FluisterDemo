@@ -4,15 +4,16 @@ struct StatusFooter: View {
     @Environment(Transcriber.self) private var transcriber
 
     var body: some View {
-        HStack(spacing: 10) {
+        HStack(alignment: .top, spacing: 10) {
             Circle()
                 .fill(indicatorColor)
                 .frame(width: 8, height: 8)
+                .padding(.top, 4)
                 .accessibilityHidden(true)
             Text(statusText)
                 .font(.callout)
                 .foregroundStyle(.secondary)
-                .lineLimit(2)
+                .fixedSize(horizontal: false, vertical: true)
             Spacer()
             if !transcriber.modelDisplayName.isEmpty {
                 Text(transcriber.modelDisplayName)
@@ -37,17 +38,27 @@ struct StatusFooter: View {
     }
 
     private var statusText: String {
-        switch transcriber.phase {
+        let bundle = transcriber.language.bundle
+        return switch transcriber.phase {
         case .ready:
-            String(localized: "Ready. Audio stays on this Mac.", comment: "Idle status.")
+            String(localized: "Ready. Audio stays on this device.", bundle: bundle, comment: "Idle status.")
         case .missingModel:
-            String(localized: "Choose the Fluister Core ML folder to begin.", comment: "Status when no model is selected.")
+            String(localized: "Download the speech recognition model to begin.", bundle: bundle, comment: "Status when no local Core ML package is on the device.")
         case .preparing:
-            String(localized: "Preparing model on this Mac…", comment: "Status while Core ML compiles or loads.")
+            String(localized: "Preparing the model for this device", bundle: bundle, comment: "Full-pane title while Core ML compiles Fluister.")
         case .listening:
-            String(localized: "Listening…", comment: "Status while the microphone is live.")
+            if transcriber.waitingForSpeech {
+                String(localized: "Waiting for speech…", bundle: bundle, comment: "Status while the microphone is live but no voice has been heard yet.")
+            } else {
+                String(localized: "Listening…", bundle: bundle, comment: "Status while the microphone is live.")
+            }
         case .failed(let message):
             message
         }
     }
+}
+
+#Preview {
+    StatusFooter()
+        .environment(Transcriber())
 }

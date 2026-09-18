@@ -16,3 +16,9 @@ struct LevelMeter: View {
         .accessibilityHidden(true)
     }
 }
+
+#Preview {
+    @Previewable @State var level : Float = 0.5
+    Slider(value: $level)
+    LevelMeter(level: level)
+}

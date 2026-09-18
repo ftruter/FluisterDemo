@@ -15,3 +15,5 @@ xcuserdata/
 .swiftpm/xcode/package.xcworkspace/xcuserdata/
 Models/fluister-turbo-v2
 Models/*.mlmodelc
+FluisterDemoTests/Fixtures/*.wav
+/Clips/
