@@ -103,7 +103,7 @@ python3 Scripts/select-afrikaans-clips.py
 
 ## Contributing 
 
-Any contributions welcome. Just raise a PR and ask FTruter to review. A good place to start would be with the [AI Criitique](./CRITIQUE.md) 
+Any contributions welcome. Just raise a PR and ask FTruter to review. A good place to start would be with the [AI Critique](./CRITIQUE.md). 
 
 ## Credits
 
